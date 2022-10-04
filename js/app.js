@@ -1,4 +1,4 @@
-const client = new dhive.Client('https://api.hive.blog');
+const client = new dhive.Client('https://api.serey.io/');
 
 // Generates Aall Private Keys from username and password
 function getPrivateKeys(username, password, roles = ['owner', 'active', 'posting', 'memo']) {
